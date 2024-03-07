@@ -2,7 +2,7 @@ module.exports = ({ env }) => ({
   "website-builder": {
     enabled: true,
     config: {
-      url: env("VERCEL_HOOK_URL"),
+      url: env('VERCEL_HOOK_URL', undefined),
       trigger: {
         type: "manual",
       },
