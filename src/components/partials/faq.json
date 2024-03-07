@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_partials_faqs",
+  "info": {
+    "displayName": "faq"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.heading"
+    },
+    "accordion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base.content"
+    }
+  }
+}
