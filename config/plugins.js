@@ -10,7 +10,7 @@ module.exports = ({ env }) => ({
         target: {
           ref_type: "branch",
           type: "pipeline_ref_target",
-          ref_name: "master",
+          ref_name: "main",
         },
       },
       headers: {
