@@ -2,7 +2,7 @@ module.exports = ({ env }) => ({
   "website-builder": {
     enabled: true,
     config: {
-      url: env('VERCEL_HOOK_URL', ""),
+      url: env("VERCEL_HOOK_URL"),
       trigger: {
         type: "manual",
       },
@@ -10,7 +10,7 @@ module.exports = ({ env }) => ({
         target: {
           ref_type: "branch",
           type: "pipeline_ref_target",
-          ref_name: "main",
+          ref_name: "master",
         },
       },
       headers: {

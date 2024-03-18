@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "regulation_and_policies",
+  "info": {
+    "singularName": "regulation-and-policy",
+    "pluralName": "regulation-and-policies",
+    "displayName": "RegulationAndPolicy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "docUrl": {
+      "type": "text"
+    }
+  }
+}

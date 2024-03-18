@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_partials_faqs",
+  "collectionName": "components_partials_our_location_infos",
   "info": {
-    "displayName": "faq",
+    "displayName": "OurLocationInfo",
     "description": ""
   },
   "options": {},
@@ -11,17 +11,15 @@
       "repeatable": false,
       "component": "base.heading"
     },
-    "accordion": {
+    "button": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "base.content"
     },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "type1",
-        "type2"
-      ]
+    "contactAddress": {
+      "type": "component",
+      "repeatable": false,
+      "component": "features.address"
     }
   }
 }

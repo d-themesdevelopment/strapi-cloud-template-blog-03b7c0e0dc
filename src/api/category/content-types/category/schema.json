@@ -36,6 +36,12 @@
       "type": "component",
       "repeatable": false,
       "component": "base.media"
+    },
+    "specialties": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::specialty.specialty",
+      "mappedBy": "category"
     }
   }
 }

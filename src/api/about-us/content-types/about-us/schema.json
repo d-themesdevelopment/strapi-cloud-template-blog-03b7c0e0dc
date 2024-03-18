@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "AboutUs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "partials.page-header",
+        "partials.members",
+        "partials.reports",
+        "partials.regulations-and-policies",
+        "features.accordion"
+      ]
+    }
+  }
+}

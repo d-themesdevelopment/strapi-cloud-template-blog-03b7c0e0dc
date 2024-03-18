@@ -11,6 +11,9 @@
     },
     "desc": {
       "type": "text"
+    },
+    "subtitle": {
+      "type": "string"
     }
   }
 }

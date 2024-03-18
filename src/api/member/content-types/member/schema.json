@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "members",
   "info": {
-    "singularName": "article",
-    "pluralName": "articles",
-    "displayName": "Article",
+    "singularName": "member",
+    "pluralName": "members",
+    "displayName": "Member",
     "description": ""
   },
   "options": {
@@ -12,26 +12,23 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "slug": {
-      "type": "uid",
-      "targetField": "title"
-    },
-    "date": {
-      "type": "date"
-    },
     "media": {
       "type": "component",
       "repeatable": false,
       "component": "base.media"
     },
+    "role": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
     "desc": {
       "type": "text"
     },
-    "body": {
-      "type": "richtext"
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }

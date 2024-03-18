@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reports",
+  "info": {
+    "singularName": "report",
+    "pluralName": "reports",
+    "displayName": "Report",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.media"
+    },
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "docUrl": {
+      "type": "text"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}
